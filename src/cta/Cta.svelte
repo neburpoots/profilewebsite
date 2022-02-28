@@ -2,7 +2,7 @@
     <div class="container">
         <h3 class="projecth3">Benieuwd naar de code voor deze projecten?</h3>
         <div class="ctacontainer">
-            <a href="/" ><p class="customlink">Bekijk mijn github</p></a>
+            <a target="_blank" href="https://github.com/neburpoots" ><p class="customlink">Bekijk mijn github</p></a>
         </div>
     </div>
 </div>

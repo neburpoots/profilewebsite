@@ -316,6 +316,13 @@ main {
     transition: background-color 300ms linear;
 }
 
+@media only screen and (max-width: 1600px) {
+	#projects .projects .projectcta {
+		padding-top: 20px;
+	}
+}
+
+
 @media only screen and (max-width: 1180px) {
 	#projects .gridcontainer {
 		grid-template-columns: 1fr 1fr;
