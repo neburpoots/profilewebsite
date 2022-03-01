@@ -1,6 +1,6 @@
 <div class="projects gpucomponent">
     <figure class="gridfigure">
-        <a target="_blank" href="images/videocard1.png" ><img class="gridimage" src="images/videocard2.png" alt="Afbeelding van de videokaarten webshop"></a>
+        <a target="_blank" href="images/videocard2.webp" ><img class="gridimage" src="images/videocard2.webp" alt="Afbeelding van de videokaarten webshop"></a>
     </figure>
     <article class="projecttext">
         <header>

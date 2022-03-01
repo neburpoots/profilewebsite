@@ -21,8 +21,8 @@
             </footer>
         </article>
         <figure class="gridfigure">
-            <a target="_blank" href="images/java1.png">
-                <img class="gridimage" src="images/java1.png" alt="Afbeelding van de biscoop applicatie">
+            <a target="_blank" href="images/java1.webp">
+                <img class="gridimage" src="images/java1.webp" alt="Afbeelding van de biscoop applicatie">
             </a>
         </figure>
 

@@ -1,6 +1,6 @@
 <div class="projects nosqlcomponent">
     <figure class="gridfigure">
-        <a target="_blank" href="images/nosql2.png" ><img class="gridimage" src="images/nosql2.png" alt="Afbeelding van de Nosql applicatie"></a>
+        <a target="_blank" href="images/nosql2.webp" ><img class="gridimage" src="images/nosql2.webp" alt="Afbeelding van de Nosql applicatie"></a>
     </figure>
     <article class="projecttext">
         <header>

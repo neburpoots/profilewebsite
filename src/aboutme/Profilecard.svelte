@@ -1,5 +1,5 @@
 <script>
-    import Profileimage from "./profilecardcomponents/profileimage.svelte";
+    import Profileimage from "./profilecardcomponents/Profileimage.svelte";
     import Profiletext from "./profilecardcomponents/Profiletext.svelte";
 </script>
 

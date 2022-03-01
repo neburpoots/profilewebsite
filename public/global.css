@@ -166,7 +166,7 @@ select:-webkit-autofill:focus {
 }
 
 .contactformbackground {
-	background-image: url(/images/contactform.png);
+	background-image: url(/images/contactform.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -315,6 +315,13 @@ main {
     -ms-transition: background-color 300ms linear;
     transition: background-color 300ms linear;
 }
+
+@media only screen and (max-width: 1600px) {
+	#projects .projects .projectcta {
+		padding-top: 20px;
+	}
+}
+
 
 @media only screen and (max-width: 1180px) {
 	#projects .gridcontainer {

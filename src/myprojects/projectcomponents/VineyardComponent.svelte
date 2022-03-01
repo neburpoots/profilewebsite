@@ -21,8 +21,8 @@
         </footer>
     </article>
     <figure class="gridfigure">
-        <a target="_blank" href="images/vineyard2.png">
-            <img class="gridimage" src="images/vineyard2.png" alt="Afbeelding van de wijngaard website">
+        <a target="_blank" href="images/vineyard2.webp">
+            <img class="gridimage" src="images/vineyard2.webp" alt="Afbeelding van de wijngaard website">
         </a>
     </figure>
 
