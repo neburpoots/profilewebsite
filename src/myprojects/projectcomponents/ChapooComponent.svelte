@@ -1,6 +1,6 @@
 <div class="projects chapoocomponent">
     <figure class="gridfigure">
-        <a target="_blank" href="images/chapoo1.png" ><img class="gridimage" src="images/chapoo1.png" alt="Afbeelding van de chapoo applicatie"></a>
+        <a target="_blank" href="images/chapoo1.webp" ><img class="gridimage" src="images/chapoo1.webp" alt="Afbeelding van de chapoo applicatie"></a>
     </figure>
     <article class="projecttext">
         <header>

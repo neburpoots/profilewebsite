@@ -1,5 +1,5 @@
 <script>
-    let src = "images/profilepicv2.jpg";
+    let src = "images/profilepicv2.webp";
 </script>
 
 <figure>

@@ -166,7 +166,7 @@ select:-webkit-autofill:focus {
 }
 
 .contactformbackground {
-	background-image: url(/images/contactform.png);
+	background-image: url(/images/contactform.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;

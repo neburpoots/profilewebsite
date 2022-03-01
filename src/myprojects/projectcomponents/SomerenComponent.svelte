@@ -1,6 +1,6 @@
 <div class="projects somerencomponent">
     <figure class="gridfigure">
-        <a target="_blank" href="images/someren4.png" ><img class="gridimage" src="images/someren4.png" alt="Afbeelding van de someren applicatie"></a>
+        <a target="_blank" href="images/someren4.webp" ><img class="gridimage" src="images/someren4.webp" alt="Afbeelding van de someren applicatie"></a>
     </figure>
     <article class="projecttext">
         <header>
