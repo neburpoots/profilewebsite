@@ -1,5 +1,5 @@
 <script>
-    let src = "images/profilepicv2.webp";
+    let src = "https://res.cloudinary.com/dg5wrkfe7/image/upload/v1646142675/profilewebsite/profilepicv2_sb4dnw.webp";
 </script>
 
 <figure>

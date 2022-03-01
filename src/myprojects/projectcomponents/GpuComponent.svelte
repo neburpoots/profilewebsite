@@ -1,6 +1,6 @@
 <div class="projects gpucomponent">
     <figure class="gridfigure">
-        <a target="_blank" href="images/videocard2.webp" ><img class="gridimage" src="images/videocard2.webp" alt="Afbeelding van de videokaarten webshop"></a>
+        <a target="_blank" href="https://res.cloudinary.com/dg5wrkfe7/image/upload/v1646142675/profilewebsite/videocard2_pbioql.webp" ><img class="gridimage" src="https://res.cloudinary.com/dg5wrkfe7/image/upload/v1646142675/profilewebsite/videocard2_pbioql.webp" alt="Afbeelding van de videokaarten webshop"></a>
     </figure>
     <article class="projecttext">
         <header>
