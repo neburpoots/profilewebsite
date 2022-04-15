@@ -20,7 +20,7 @@
         </footer>
     </article>
     <div class="projectcta">
-        <a target="_blank" href="https://rubenstoop.com" ><p class="customlink">Bekijk de website</p></a>
+        <a target="_blank" href="https://github.com/neburpoots/plainphpwebshop" ><p class="customlink">Bekijk de webshop</p></a>
     </div>
 </div>
 
