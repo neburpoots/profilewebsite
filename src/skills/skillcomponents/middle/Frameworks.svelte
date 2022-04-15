@@ -5,10 +5,10 @@
             React (basis)
         </li>
         <li>
-            Svelte (basis)
+            Vue (basis)
         </li>
         <li>
-            Laravel (basis)
+            Laravel
         </li>
         <li>
             ASP.net core

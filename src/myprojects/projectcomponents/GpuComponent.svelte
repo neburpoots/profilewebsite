@@ -8,8 +8,8 @@
         </header>
         <main>
             <p class="projectp">
-                De videokaarten webshop is een webshop die ik voor het vak webdevelop moest maken. 
-                Deze webshop is gemaakt met plain PHP  en Javascript. 
+                De videokaarten webshop is een webshop die ik voor het vak webdevelopment heb gemaakt. 
+                Deze webshop is gemaakt met plain PHP en Javascript. 
                 We mochten namelijk voor dit project geen gebruik maken van Libraries/Frameworks. 
                 De enige uitzondering hiervoor is bootstrap. 
                 Dit heb ik gebruikt om het er redelijk snel netjes uit te laten zien. 

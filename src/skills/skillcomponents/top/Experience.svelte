@@ -3,7 +3,7 @@
     <h3>Werkervaring</h3>
     <ul>
         <li>
-            Lelie bedrijf Firma Entius 14-7-2015 tot heden
+            Lelie bedrijf Firma Entius 14-7-2015 t/m 21-2-2022
         </li>
         <li>
             Stage Viehoff B.V 3-11-2016 t/m 8-11-2016

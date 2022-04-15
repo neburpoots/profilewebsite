@@ -23,41 +23,34 @@
         </section>
         <div class="formcontainer">
             <h2>Contact</h2>
-            <form class="contactform" on:submit|preventDefault={submitForm}>
+            <form class="contactform" action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="1e8779f8-c6a1-4e69-9f55-4cbd2df2cdfb"> <!-- Required -->
                 <div class="name inputlabel">
                     <label class="formlabels" for="name">Naam</label>
-                    <input type="text" id="name" name="name" placeholder="Uw naam" bind:value={name}>
-                    {#if errors.name}
-                        <p><small style="color: red"> { errors.name } </small></p>
-                    {/if}
-        
+                    <input required type="text" id="name" name="name" placeholder="Uw naam">
                 </div>
 
                 <div class="email inputlabel">
                     <label class="formlabels" for="email">E-mail</label>
-                    <input type="text" id="email" name="email" placeholder="Uw e-mail" bind:value={email}>
-                    {#if errors.email}
-                        <p><small style="color: red"> { errors.email } </small></p>
-                    {/if}
+                    <input required type="text" id="email" name="email" placeholder="Uw e-mail">
+
                 </div>
 
                 <div class="subject inputlabel">
                     <label class="formlabels" for="subject">Onderwerp</label>
-                    <input type="text" id="subject" name="subject" placeholder="Onderwerp" bind:value={subject}>
-                    {#if errors.subject}
-                    <p><small style="color: red"> { errors.subject } </small></p>
-                    {/if}
+                    <input required type="text" id="subject" name="subject" placeholder="Onderwerp">
+
                 </div>
 
                 <div class="message inputlabel">
                     <label class="formlabels" for="message">Bericht</label>
-                    <textarea id="message" name="message" placeholder="Uw bericht" style="height:200px"  bind:value={message}></textarea> 
-                    {#if errors.message}
-                    <p><small style="color: red"> { errors.message } </small></p>
-                    {/if}   
+                    <textarea required id="message" name="message" placeholder="Uw bericht" style="height:200px"></textarea> 
+
                 </div>
-                {#if succes.s}
-                <p><small style="color: green"> { succes.s } </small></p>
+                <input type="hidden" name="redirectTo" value="https://rubenstoop.com?success=1"> 
+                <input type="text" name="honeypot" style="display: none;"> 
+                {#if success}
+                <p><small style="color: green"> Bericht verstuurd! </small></p>
                 {/if}  
                 <button class="submitbutton" type="submit">Verstuur bericht</button>
             
@@ -67,77 +60,19 @@
 </div>
 
 <script>
+	import { onMount } from 'svelte';
 
-let errors = {};
-let name = "";
-let email = "";
-let subject = "";
-let message = "";
+    let success;
+    onMount(async () => {
+        const link = window.location.href;
+        let url = new URL(link);
 
-let sendError = "";
-
-let succes = {}
-
-function isNameValid( value ) {
-    if(value != "") {
-        return(value);
-    }
-}
-
-function isEmailValid( value ) {
-    return /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test( value )
-}
-
-function sendEmail() {
-
-    console.log(email);
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "rubenstoopprofiel@gmail.com",
-        Password : "Welkom123!",
-        To : 'neburpoots@gmail.com',
-        From : email,
-        Subject : subject,
-        Body : message
-    }).then(
-        message => console.log(message),
-        succes['s'] = "E-mail is verzonden!"
-    );
-}
-
-const submitForm = (event) => {
-    errors = {}
-    const formData = new FormData(event.target)
-
-    let error_flag = false;
-
-
-    for ( let field of formData ) {
-        const [key, value] = field;
-
-        // Validate First name and Last_name
-        if ( key === 'name' || key === 'subject' || key === 'message') {
-            if ( !isNameValid( value ) ) {
-                errors[key] = key + ' is niet juist ingevuld.'
-                error_flag = true
-            }
+        let s = url.searchParams.get("success");
+        if(s)
+        {
+            success = true;
         }
-
-        // Valid Email
-        if ( key === 'email' ) {
-            if ( !isEmailValid( value ) ) {
-                errors[key] = 'E-mail is niet geldig.'
-                error_flag = true
-            }
-        }
-
-    }
-
-    if ( !error_flag ) {
-       sendEmail();
-    }
-};
-
+    });
 </script>
 
 
