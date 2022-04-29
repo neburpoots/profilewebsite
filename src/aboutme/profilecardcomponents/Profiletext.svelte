@@ -8,7 +8,7 @@
         </header>
         <main>
             <p>
-                Mijn naam is Ruben Stoop, 21 jaar oud en op dit moment bezig met mijn tweede jaar van de opleiding Informatica te Inholland. Mijn grote passie is programmeren en designen.
+                Mijn naam is Ruben Stoop, 21 jaar oud en op dit moment bezig met mijn tweede jaar van de opleiding Informatica te Inholland. Mijn grote passies zijn programmeren en designen.
             </p>
         </main>
     </article>
